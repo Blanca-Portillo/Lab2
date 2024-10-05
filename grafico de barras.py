@@ -19,3 +19,6 @@ plt.xlabel('Número de Streams')
 plt.title('Top 10 Canciones Más Sonadas')
 plt.gca().invert_yaxis()  # Invertimos el eje para que la canción más sonada esté en la parte de arriba
 plt.show()
+ 
+#LINK DEL DATASET QUE USÉ 
+ #https://www.kaggle.com/datasets/asmonline/spotify-song-performance-dataset
