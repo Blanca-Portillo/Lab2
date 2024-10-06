@@ -1,11 +1,11 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Leer el archivo CSV
+#  archivo CSV
 archivo = "student_performance.csv"  # Asegúrate de que este sea el nombre correcto del archivo
 df = pd.read_csv(archivo)
 
-# Mostrar las primeras filas del DataFrame para verificar los datos
+# verificar los datos
 print(df.head())
 
 # Verificar los nombres de las columnas
@@ -22,7 +22,7 @@ plt.plot(top_students['Name'], top_students['AttendanceRate'], marker='o')
 plt.title('Tasa de Asistencia de los 10 Estudiantes con Mejor Rendimiento')
 plt.xlabel('Estudiantes')
 plt.ylabel('Tasa de Asistencia (%)')
-plt.xticks(rotation=45)  # Rotar nombres para mejor visualización
+plt.xticks(rotation=45)  # Rotar nombres 
 plt.grid()
 plt.tight_layout()
 
