@@ -31,3 +31,10 @@ plt.show()
 
 #link del Dataset que usé
 #https://www.kaggle.com/datasets/haseebindata/student-performance-predictions
+
+
+#analisis
+#este gráfico ayuda a visualizar cómo la asistencia puede influir en el éxito académico de los alumnos
+#  pero también sugiere que otros factores como el tiempo de estudio y otras actividades
+#  podrían estar en juego para alcanzar las calificaciones más altas del promedio
+
