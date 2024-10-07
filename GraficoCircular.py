@@ -7,7 +7,7 @@ df = pd.read_csv(archivo)
 
 print(df.head()) #verifica datos
 
-grouped_data = df.groupby('Jugador')['Nominaciones'].sum()# Agrupar por jugador y sumar las nominaciones
+grouped_data = df.groupby('player')['Playing Time-90s'].sum()# Agrupar por jugador y sumar las nominaciones
 
 #creamos el grafico 
 plt.figure(figsize=(10, 8))  
