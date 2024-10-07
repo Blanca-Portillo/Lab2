@@ -20,3 +20,7 @@ plt.show()
 
 #link del dataset que use
 #https://www.kaggle.com/datasets/farzammanafzadeh/ballon-dor-2024-nominees-league-stats
+
+#el gráfico circular nos proporciona una visión clara y rápida de quiénes han sido los jugadores más 
+#influyentes en las nominaciones al Balón de Oro. Permite ver tanto las figuras dominantes como la diversidad de 
+#talento en la competición, y ayuda a identificar si hay una concentración de nominaciones en ciertos jugadores o si está más distribuida.
